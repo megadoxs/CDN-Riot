@@ -13,8 +13,6 @@ jobs:
       
       - name: Commit and push changes
         run: |
-          git config --global user.name 'megadoxs'
-          git config --global user.email 'megadoxs@gmail.com'
           git add champions.json
           git commit -m 'Update JSON file'
           git push
