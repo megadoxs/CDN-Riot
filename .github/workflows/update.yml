@@ -17,4 +17,3 @@ jobs:
           git config --global user.name "megadoxs"
           git add champions.json
           git commit -m 'Update JSON file'
-          git push https://megadoxs:${{ secrets.PAT_TOKEN }}@github.com/megadoxs/cdn-riot
