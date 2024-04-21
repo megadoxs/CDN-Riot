@@ -1,7 +1,8 @@
 name: Update JSON File
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   update-json:
